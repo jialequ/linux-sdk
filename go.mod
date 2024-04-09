@@ -1,4 +1,4 @@
-module github.com/zeromicro/go-zero
+module github.com/jialequ/linux-sdk
 
 go 1.21
 
