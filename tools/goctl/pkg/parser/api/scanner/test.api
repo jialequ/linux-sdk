@@ -1,0 +1,28 @@
+syntax = "v1"
+
+info(
+    title: "type title here"
+    desc: "type desc here"
+    author: "type author here"
+    email: "type email here"
+    version: "type version here"
+)
+
+
+type request {
+    // : add members here and delete this comment
+}
+
+type response {
+    // : add members here and delete this comment
+}
+
+@server(
+    jwt: Auth
+    group: template
+)
+service template {
+    @doc "foo" /*foo*/
+    @handler handlerName // : replace handler name and delete this comment
+    get /users/id/:userId (request) returns (response)
+}
