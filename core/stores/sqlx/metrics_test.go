@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/jialequ/linux-sdk/core/conf"
+	"github.com/jialequ/linux-sdk/internal/devserver"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/testutil"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/internal/devserver"
 )
 
 func TestSqlxMetric(t *testing.T) {

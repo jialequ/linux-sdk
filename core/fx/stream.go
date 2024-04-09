@@ -5,9 +5,9 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/zeromicro/go-zero/core/collection"
-	"github.com/zeromicro/go-zero/core/lang"
-	"github.com/zeromicro/go-zero/core/threading"
+	"github.com/jialequ/linux-sdk/core/collection"
+	"github.com/jialequ/linux-sdk/core/lang"
+	"github.com/jialequ/linux-sdk/core/threading"
 )
 
 const (

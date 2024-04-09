@@ -7,12 +7,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/collection"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/mathx"
-	"github.com/zeromicro/go-zero/core/stat"
-	"github.com/zeromicro/go-zero/core/syncx"
-	"github.com/zeromicro/go-zero/core/timex"
+	"github.com/jialequ/linux-sdk/core/collection"
+	"github.com/jialequ/linux-sdk/core/logx"
+	"github.com/jialequ/linux-sdk/core/mathx"
+	"github.com/jialequ/linux-sdk/core/stat"
+	"github.com/jialequ/linux-sdk/core/syncx"
+	"github.com/jialequ/linux-sdk/core/timex"
 )
 
 const (

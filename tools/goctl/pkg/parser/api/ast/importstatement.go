@@ -1,6 +1,6 @@
 package ast
 
-import "github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/token"
+import "github.com/jialequ/linux-sdk/tools/goctl/pkg/parser/api/token"
 
 // ImportStmt represents an import statement.
 type ImportStmt interface {
@@ -43,7 +43,7 @@ func (i *ImportLiteralStmt) End() token.Position {
 }
 
 func (i *ImportLiteralStmt) importNode() {
-  //func (i *ImportLiteralStmt) importNode() 
+	//func (i *ImportLiteralStmt) importNode()
 }
 
 func (i *ImportLiteralStmt) Pos() token.Position {
@@ -51,7 +51,7 @@ func (i *ImportLiteralStmt) Pos() token.Position {
 }
 
 func (i *ImportLiteralStmt) stmtNode() {
-  //func (i *ImportLiteralStmt) stmtNode() 
+	//func (i *ImportLiteralStmt) stmtNode()
 }
 
 type ImportGroupStmt struct {
@@ -107,7 +107,7 @@ func (i *ImportGroupStmt) End() token.Position {
 }
 
 func (i *ImportGroupStmt) importNode() {
-  //func (i *ImportGroupStmt) importNode() 
+	//func (i *ImportGroupStmt) importNode()
 }
 
 func (i *ImportGroupStmt) Pos() token.Position {
@@ -115,5 +115,5 @@ func (i *ImportGroupStmt) Pos() token.Position {
 }
 
 func (i *ImportGroupStmt) stmtNode() {
-  //func (i *ImportGroupStmt) stmtNode() 
+	//func (i *ImportGroupStmt) stmtNode()
 }

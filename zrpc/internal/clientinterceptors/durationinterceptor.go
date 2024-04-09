@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/lang"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/syncx"
-	"github.com/zeromicro/go-zero/core/timex"
+	"github.com/jialequ/linux-sdk/core/lang"
+	"github.com/jialequ/linux-sdk/core/logx"
+	"github.com/jialequ/linux-sdk/core/syncx"
+	"github.com/jialequ/linux-sdk/core/timex"
 	"google.golang.org/grpc"
 )
 

@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/jialequ/linux-sdk/core/mathx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/mathx"
 )
 
 const (

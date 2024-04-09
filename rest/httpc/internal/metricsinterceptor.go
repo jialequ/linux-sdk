@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/metric"
-	"github.com/zeromicro/go-zero/core/timex"
+	"github.com/jialequ/linux-sdk/core/metric"
+	"github.com/jialequ/linux-sdk/core/timex"
 )
 
 const clientNamespace = "httpc_client"

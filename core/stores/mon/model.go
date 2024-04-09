@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/timex"
+	"github.com/jialequ/linux-sdk/core/breaker"
+	"github.com/jialequ/linux-sdk/core/logx"
+	"github.com/jialequ/linux-sdk/core/timex"
 	"go.mongodb.org/mongo-driver/mongo"
 	mopt "go.mongodb.org/mongo-driver/mongo/options"
 )

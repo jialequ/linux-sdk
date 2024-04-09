@@ -4,8 +4,8 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/zeromicro/go-zero/core/metric"
-	"github.com/zeromicro/go-zero/core/timex"
+	"github.com/jialequ/linux-sdk/core/metric"
+	"github.com/jialequ/linux-sdk/core/timex"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/status"
 )

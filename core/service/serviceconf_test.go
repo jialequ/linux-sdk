@@ -3,9 +3,9 @@ package service
 import (
 	"testing"
 
+	"github.com/jialequ/linux-sdk/core/logx"
+	"github.com/jialequ/linux-sdk/internal/devserver"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/internal/devserver"
 )
 
 func TestServiceConf(t *testing.T) {

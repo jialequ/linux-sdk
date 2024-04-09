@@ -12,7 +12,7 @@ import (
 	"sync/atomic"
 
 	fatihcolor "github.com/fatih/color"
-	"github.com/zeromicro/go-zero/core/color"
+	"github.com/jialequ/linux-sdk/core/color"
 )
 
 type (
@@ -228,7 +228,7 @@ type nopWriter struct{}
 
 func (n nopWriter) Alert(_ any) {
 
-  //func (n nopWriter) Alert(_ any) 
+	//func (n nopWriter) Alert(_ any)
 }
 
 func (n nopWriter) Close() error {
@@ -237,37 +237,37 @@ func (n nopWriter) Close() error {
 
 func (n nopWriter) Debug(_ any, _ ...LogField) {
 
-  //func (n nopWriter) Debug(_ any, _ ...LogField) 
+	//func (n nopWriter) Debug(_ any, _ ...LogField)
 }
 
 func (n nopWriter) Error(_ any, _ ...LogField) {
 
-  //func (n nopWriter) Error(_ any, _ ...LogField) 
+	//func (n nopWriter) Error(_ any, _ ...LogField)
 }
 
 func (n nopWriter) Info(_ any, _ ...LogField) {
 
-  //func (n nopWriter) Info(_ any, _ ...LogField) 
+	//func (n nopWriter) Info(_ any, _ ...LogField)
 }
 
 func (n nopWriter) Severe(_ any) {
 
-  //func (n nopWriter) Severe(_ any) 
+	//func (n nopWriter) Severe(_ any)
 }
 
 func (n nopWriter) Slow(_ any, _ ...LogField) {
 
-  //func (n nopWriter) Slow(_ any, _ ...LogField) 
+	//func (n nopWriter) Slow(_ any, _ ...LogField)
 }
 
 func (n nopWriter) Stack(_ any) {
 
-  //func (n nopWriter) Stack(_ any) 
+	//func (n nopWriter) Stack(_ any)
 }
 
 func (n nopWriter) Stat(_ any, _ ...LogField) {
 
-  //func (n nopWriter) Stat(_ any, _ ...LogField) 
+	//func (n nopWriter) Stat(_ any, _ ...LogField)
 }
 
 func buildPlainFields(fields ...LogField) []string {

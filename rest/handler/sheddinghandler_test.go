@@ -5,9 +5,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/jialequ/linux-sdk/core/load"
+	"github.com/jialequ/linux-sdk/core/stat"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/load"
-	"github.com/zeromicro/go-zero/core/stat"
 )
 
 func TestSheddingHandlerAccept(t *testing.T) {
@@ -92,12 +92,12 @@ type mockPromise struct{}
 
 func (p mockPromise) Pass() {
 
-  //func (p mockPromise) Pass() 
+	//func (p mockPromise) Pass()
 }
 
 func (p mockPromise) Fail() {
 
-  //func (p mockPromise) Fail() 
+	//func (p mockPromise) Fail()
 }
 
 const literal_2746 = "unit-test"

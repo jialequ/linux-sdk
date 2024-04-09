@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/zeromicro/go-zero/core/breaker"
+	"github.com/jialequ/linux-sdk/core/breaker"
 )
 
 type (

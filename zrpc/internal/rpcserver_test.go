@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/jialequ/linux-sdk/core/proc"
+	"github.com/jialequ/linux-sdk/core/stat"
+	"github.com/jialequ/linux-sdk/internal/mock"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/proc"
-	"github.com/zeromicro/go-zero/core/stat"
-	"github.com/zeromicro/go-zero/internal/mock"
 	"google.golang.org/grpc"
 )
 

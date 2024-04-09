@@ -6,11 +6,11 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/zeromicro/go-zero/core/mapping"
-	"github.com/zeromicro/go-zero/core/validation"
-	"github.com/zeromicro/go-zero/rest/internal/encoding"
-	"github.com/zeromicro/go-zero/rest/internal/header"
-	"github.com/zeromicro/go-zero/rest/pathvar"
+	"github.com/jialequ/linux-sdk/core/mapping"
+	"github.com/jialequ/linux-sdk/core/validation"
+	"github.com/jialequ/linux-sdk/rest/internal/encoding"
+	"github.com/jialequ/linux-sdk/rest/internal/header"
+	"github.com/jialequ/linux-sdk/rest/pathvar"
 )
 
 const (

@@ -1,6 +1,6 @@
 package ast
 
-import "github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/token"
+import "github.com/jialequ/linux-sdk/tools/goctl/pkg/parser/api/token"
 
 // InfoStmt is the info statement.
 type InfoStmt struct {
@@ -63,5 +63,5 @@ func (i *InfoStmt) Pos() token.Position {
 }
 
 func (i *InfoStmt) stmtNode() {
-  //func (i *InfoStmt) stmtNode() 
+	//func (i *InfoStmt) stmtNode()
 }

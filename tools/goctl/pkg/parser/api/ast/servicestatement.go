@@ -1,6 +1,6 @@
 package ast
 
-import "github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/token"
+import "github.com/jialequ/linux-sdk/tools/goctl/pkg/parser/api/token"
 
 // AtServerStmt represents @server statement.
 type AtServerStmt struct {
@@ -63,7 +63,7 @@ func (a *AtServerStmt) Pos() token.Position {
 }
 
 func (a *AtServerStmt) stmtNode() {
-  //func (a *AtServerStmt) stmtNode() 
+	//func (a *AtServerStmt) stmtNode()
 }
 
 type AtDocStmt interface {
@@ -104,7 +104,7 @@ func (a *AtDocLiteralStmt) End() token.Position {
 }
 
 func (a *AtDocLiteralStmt) atDocNode() {
-  //func (a *AtDocLiteralStmt) atDocNode() 
+	//func (a *AtDocLiteralStmt) atDocNode()
 }
 
 func (a *AtDocLiteralStmt) Pos() token.Position {
@@ -112,7 +112,7 @@ func (a *AtDocLiteralStmt) Pos() token.Position {
 }
 
 func (a *AtDocLiteralStmt) stmtNode() {
-  //func (a *AtDocLiteralStmt) stmtNode() 
+	//func (a *AtDocLiteralStmt) stmtNode()
 }
 
 type AtDocGroupStmt struct {
@@ -167,7 +167,7 @@ func (a *AtDocGroupStmt) End() token.Position {
 }
 
 func (a *AtDocGroupStmt) atDocNode() {
-  //func (a *AtDocGroupStmt) atDocNode() 
+	//func (a *AtDocGroupStmt) atDocNode()
 }
 
 func (a *AtDocGroupStmt) Pos() token.Position {
@@ -175,7 +175,7 @@ func (a *AtDocGroupStmt) Pos() token.Position {
 }
 
 func (a *AtDocGroupStmt) stmtNode() {
-  //func (a *AtDocGroupStmt) stmtNode() 
+	//func (a *AtDocGroupStmt) stmtNode()
 }
 
 type ServiceStmt struct {
@@ -245,7 +245,7 @@ func (s *ServiceStmt) Pos() token.Position {
 }
 
 func (s *ServiceStmt) stmtNode() {
-  //func (s *ServiceStmt) stmtNode() 
+	//func (s *ServiceStmt) stmtNode()
 }
 
 type ServiceNameExpr struct {
@@ -279,7 +279,7 @@ func (s *ServiceNameExpr) Pos() token.Position {
 }
 
 func (s *ServiceNameExpr) exprNode() {
-  //func (s *ServiceNameExpr) exprNode() 
+	//func (s *ServiceNameExpr) exprNode()
 }
 
 type AtHandlerStmt struct {
@@ -316,7 +316,7 @@ func (a *AtHandlerStmt) Pos() token.Position {
 }
 
 func (a *AtHandlerStmt) stmtNode() {
-  //func (a *AtHandlerStmt) stmtNode() 
+	//func (a *AtHandlerStmt) stmtNode()
 }
 
 type ServiceItemStmt struct {
@@ -372,7 +372,7 @@ func (s *ServiceItemStmt) Pos() token.Position {
 }
 
 func (s *ServiceItemStmt) stmtNode() {
-  //func (s *ServiceItemStmt) stmtNode() 
+	//func (s *ServiceItemStmt) stmtNode()
 }
 
 type RouteStmt struct {
@@ -457,7 +457,7 @@ func (r *RouteStmt) Pos() token.Position {
 }
 
 func (r *RouteStmt) stmtNode() {
-  //func (r *RouteStmt) stmtNode() 
+	//func (r *RouteStmt) stmtNode()
 }
 
 type PathExpr struct {
@@ -490,7 +490,7 @@ func (p *PathExpr) Pos() token.Position {
 }
 
 func (p *PathExpr) exprNode() {
-  //func (p *PathExpr) exprNode() 
+	//func (p *PathExpr) exprNode()
 }
 
 type BodyStmt struct {
@@ -529,7 +529,7 @@ func (b *BodyStmt) Pos() token.Position {
 }
 
 func (b *BodyStmt) stmtNode() {
-  //func (b *BodyStmt) stmtNode() 
+	//func (b *BodyStmt) stmtNode()
 }
 
 type BodyExpr struct {
@@ -599,5 +599,5 @@ func (e *BodyExpr) Pos() token.Position {
 }
 
 func (e *BodyExpr) exprNode() {
-  //func (e *BodyExpr) exprNode() 
+	//func (e *BodyExpr) exprNode()
 }

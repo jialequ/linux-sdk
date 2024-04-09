@@ -9,12 +9,12 @@ import (
 	"github.com/fullstorydev/grpcurl"
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/jhump/protoreflect/grpcreflect"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/mr"
-	"github.com/zeromicro/go-zero/gateway/internal"
-	"github.com/zeromicro/go-zero/rest"
-	"github.com/zeromicro/go-zero/rest/httpx"
-	"github.com/zeromicro/go-zero/zrpc"
+	"github.com/jialequ/linux-sdk/core/logx"
+	"github.com/jialequ/linux-sdk/core/mr"
+	"github.com/jialequ/linux-sdk/gateway/internal"
+	"github.com/jialequ/linux-sdk/rest"
+	"github.com/jialequ/linux-sdk/rest/httpx"
+	"github.com/jialequ/linux-sdk/zrpc"
 	"google.golang.org/grpc/codes"
 )
 

@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/executors"
-	"github.com/zeromicro/go-zero/core/logx"
+	"github.com/jialequ/linux-sdk/core/executors"
+	"github.com/jialequ/linux-sdk/core/logx"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 

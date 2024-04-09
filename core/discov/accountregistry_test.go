@@ -3,9 +3,9 @@ package discov
 import (
 	"testing"
 
+	"github.com/jialequ/linux-sdk/core/discov/internal"
+	"github.com/jialequ/linux-sdk/core/stringx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/discov/internal"
-	"github.com/zeromicro/go-zero/core/stringx"
 )
 
 func TestRegisterAccount(t *testing.T) {

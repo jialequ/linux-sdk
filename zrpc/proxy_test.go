@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/jialequ/linux-sdk/internal/mock"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/internal/mock"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials/insecure"

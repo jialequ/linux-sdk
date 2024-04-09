@@ -3,8 +3,8 @@ package token
 import (
 	"fmt"
 
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/placeholder"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
+	"github.com/jialequ/linux-sdk/tools/goctl/pkg/parser/api/placeholder"
+	"github.com/jialequ/linux-sdk/tools/goctl/util"
 )
 
 const (

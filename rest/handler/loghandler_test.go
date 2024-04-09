@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/jialequ/linux-sdk/rest/internal"
+	"github.com/jialequ/linux-sdk/rest/internal/response"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/rest/internal"
-	"github.com/zeromicro/go-zero/rest/internal/response"
 )
 
 func TestLogHandler(t *testing.T) {

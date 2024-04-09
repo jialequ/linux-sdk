@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zeromicro/go-zero/core/lang"
-	"github.com/zeromicro/go-zero/core/stringx"
+	"github.com/jialequ/linux-sdk/core/lang"
+	"github.com/jialequ/linux-sdk/core/stringx"
 )
 
 const (

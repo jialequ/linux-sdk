@@ -8,14 +8,14 @@ import (
 	"sort"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/codec"
-	"github.com/zeromicro/go-zero/core/load"
-	"github.com/zeromicro/go-zero/core/stat"
-	"github.com/zeromicro/go-zero/rest/chain"
-	"github.com/zeromicro/go-zero/rest/handler"
-	"github.com/zeromicro/go-zero/rest/httpx"
-	"github.com/zeromicro/go-zero/rest/internal"
-	"github.com/zeromicro/go-zero/rest/internal/response"
+	"github.com/jialequ/linux-sdk/core/codec"
+	"github.com/jialequ/linux-sdk/core/load"
+	"github.com/jialequ/linux-sdk/core/stat"
+	"github.com/jialequ/linux-sdk/rest/chain"
+	"github.com/jialequ/linux-sdk/rest/handler"
+	"github.com/jialequ/linux-sdk/rest/httpx"
+	"github.com/jialequ/linux-sdk/rest/internal"
+	"github.com/jialequ/linux-sdk/rest/internal/response"
 )
 
 // use 1000m to represent 100%

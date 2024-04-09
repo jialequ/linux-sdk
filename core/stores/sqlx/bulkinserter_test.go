@@ -12,8 +12,8 @@ import (
 	"testing"
 
 	"github.com/DATA-DOG/go-sqlmock"
+	"github.com/jialequ/linux-sdk/core/stores/dbtest"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/stores/dbtest"
 )
 
 type mockedConn struct {

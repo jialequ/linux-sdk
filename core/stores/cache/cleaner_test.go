@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/jialequ/linux-sdk/core/collection"
+	"github.com/jialequ/linux-sdk/core/proc"
+	"github.com/jialequ/linux-sdk/core/timex"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/collection"
-	"github.com/zeromicro/go-zero/core/proc"
-	"github.com/zeromicro/go-zero/core/timex"
 )
 
 func TestNextDelay(t *testing.T) {

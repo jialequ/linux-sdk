@@ -1,20 +1,20 @@
 package api
 
 import (
+	"github.com/jialequ/linux-sdk/tools/goctl/api/apigen"
+	"github.com/jialequ/linux-sdk/tools/goctl/api/dartgen"
+	"github.com/jialequ/linux-sdk/tools/goctl/api/docgen"
+	"github.com/jialequ/linux-sdk/tools/goctl/api/format"
+	"github.com/jialequ/linux-sdk/tools/goctl/api/gogen"
+	"github.com/jialequ/linux-sdk/tools/goctl/api/javagen"
+	"github.com/jialequ/linux-sdk/tools/goctl/api/ktgen"
+	"github.com/jialequ/linux-sdk/tools/goctl/api/new"
+	"github.com/jialequ/linux-sdk/tools/goctl/api/tsgen"
+	"github.com/jialequ/linux-sdk/tools/goctl/api/validate"
+	"github.com/jialequ/linux-sdk/tools/goctl/config"
+	"github.com/jialequ/linux-sdk/tools/goctl/internal/cobrax"
+	"github.com/jialequ/linux-sdk/tools/goctl/plugin"
 	"github.com/spf13/cobra"
-	"github.com/zeromicro/go-zero/tools/goctl/api/apigen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/dartgen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/docgen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/format"
-	"github.com/zeromicro/go-zero/tools/goctl/api/gogen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/javagen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/ktgen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/new"
-	"github.com/zeromicro/go-zero/tools/goctl/api/tsgen"
-	"github.com/zeromicro/go-zero/tools/goctl/api/validate"
-	"github.com/zeromicro/go-zero/tools/goctl/config"
-	"github.com/zeromicro/go-zero/tools/goctl/internal/cobrax"
-	"github.com/zeromicro/go-zero/tools/goctl/plugin"
 )
 
 var (

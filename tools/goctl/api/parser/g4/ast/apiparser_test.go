@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/jialequ/linux-sdk/tools/goctl/util/pathx"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 )
 
 func TestImportCycle(t *testing.T) {

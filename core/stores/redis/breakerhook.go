@@ -3,9 +3,9 @@ package redis
 import (
 	"context"
 
+	"github.com/jialequ/linux-sdk/core/breaker"
+	"github.com/jialequ/linux-sdk/core/lang"
 	red "github.com/redis/go-redis/v9"
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/lang"
 )
 
 var ignoreCmds = map[string]lang.PlaceholderType{

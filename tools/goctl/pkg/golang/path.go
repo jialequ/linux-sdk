@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/zeromicro/go-zero/tools/goctl/util/ctx"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
+	"github.com/jialequ/linux-sdk/tools/goctl/util/ctx"
+	"github.com/jialequ/linux-sdk/tools/goctl/util/pathx"
 )
 
 func GetParentPackage(dir string) (string, error) {
@@ -19,7 +19,7 @@ func GetParentPackage(dir string) (string, error) {
 		return "", err
 	}
 
-	// fix https://github.com/zeromicro/go-zero/issues/1058
+	// fix https://github.com/jialequ/linux-sdk/issues/1058
 	wd := projectCtx.WorkDir
 	d := projectCtx.Dir
 	same, err := pathx.SameFile(wd, d)

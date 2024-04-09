@@ -15,10 +15,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/jialequ/linux-sdk/core/codec"
+	"github.com/jialequ/linux-sdk/core/fs"
+	"github.com/jialequ/linux-sdk/rest/httpx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/codec"
-	"github.com/zeromicro/go-zero/core/fs"
-	"github.com/zeromicro/go-zero/rest/httpx"
 )
 
 const (

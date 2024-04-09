@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/alicebob/miniredis/v2"
+	"github.com/jialequ/linux-sdk/core/breaker"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/breaker"
 )
 
 func TestBreakerHookProcessHook(t *testing.T) {

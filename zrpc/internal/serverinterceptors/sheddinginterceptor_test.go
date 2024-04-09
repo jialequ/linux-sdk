@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
+	"github.com/jialequ/linux-sdk/core/load"
+	"github.com/jialequ/linux-sdk/core/stat"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/load"
-	"github.com/zeromicro/go-zero/core/stat"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
@@ -73,10 +73,10 @@ type mockedPromise struct{}
 
 func (m mockedPromise) Pass() {
 
-  //func (m mockedPromise) Pass() 
+	//func (m mockedPromise) Pass()
 }
 
 func (m mockedPromise) Fail() {
 
-  //func (m mockedPromise) Fail() 
+	//func (m mockedPromise) Fail()
 }

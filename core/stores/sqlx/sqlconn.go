@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/logx"
+	"github.com/jialequ/linux-sdk/core/breaker"
+	"github.com/jialequ/linux-sdk/core/logx"
 )
 
 // spanName is used to identify the span name for the SQL execution.

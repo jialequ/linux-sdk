@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/jialequ/linux-sdk/core/breaker"
+	"github.com/jialequ/linux-sdk/core/logx/logtest"
+	"github.com/jialequ/linux-sdk/core/trace/tracetest"
 	red "github.com/redis/go-redis/v9"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/logx/logtest"
-	"github.com/zeromicro/go-zero/core/trace/tracetest"
 	tracesdk "go.opentelemetry.io/otel/trace"
 )
 

@@ -1,10 +1,10 @@
 package gen
 
 import (
-	"github.com/zeromicro/go-zero/tools/goctl/model/sql/template"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
-	"github.com/zeromicro/go-zero/tools/goctl/util/stringx"
+	"github.com/jialequ/linux-sdk/tools/goctl/model/sql/template"
+	"github.com/jialequ/linux-sdk/tools/goctl/util"
+	"github.com/jialequ/linux-sdk/tools/goctl/util/pathx"
+	"github.com/jialequ/linux-sdk/tools/goctl/util/stringx"
 )
 
 func genTypes(table Table, methods string, withCache bool) (string, error) {

@@ -5,11 +5,11 @@ import (
 	"time"
 
 	"github.com/alicebob/miniredis/v2"
+	"github.com/jialequ/linux-sdk/core/hash"
+	"github.com/jialequ/linux-sdk/core/stores/cache"
+	"github.com/jialequ/linux-sdk/core/stores/redis"
+	"github.com/jialequ/linux-sdk/core/stringx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/hash"
-	"github.com/zeromicro/go-zero/core/stores/cache"
-	"github.com/zeromicro/go-zero/core/stores/redis"
-	"github.com/zeromicro/go-zero/core/stringx"
 )
 
 var (

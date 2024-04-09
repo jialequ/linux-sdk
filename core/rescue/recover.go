@@ -4,7 +4,7 @@ import (
 	"context"
 	"runtime/debug"
 
-	"github.com/zeromicro/go-zero/core/logx"
+	"github.com/jialequ/linux-sdk/core/logx"
 )
 
 // Recover is used with defer to do cleanup on panics.

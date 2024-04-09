@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/collection"
-	"github.com/zeromicro/go-zero/tools/goctl/api/spec"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
-	"github.com/zeromicro/go-zero/tools/goctl/vars"
+	"github.com/jialequ/linux-sdk/core/collection"
+	"github.com/jialequ/linux-sdk/tools/goctl/api/spec"
+	"github.com/jialequ/linux-sdk/tools/goctl/util/pathx"
+	"github.com/jialequ/linux-sdk/tools/goctl/vars"
 )
 
 const (

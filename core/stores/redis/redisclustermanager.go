@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"strings"
 
+	"github.com/jialequ/linux-sdk/core/syncx"
 	red "github.com/redis/go-redis/v9"
-	"github.com/zeromicro/go-zero/core/syncx"
 )
 
 const addrSep = ","

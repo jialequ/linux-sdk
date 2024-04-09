@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/jialequ/linux-sdk/core/stat"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/stat"
 )
 
 func init() {
@@ -126,12 +126,12 @@ type mockedPromise struct{}
 
 func (m *mockedPromise) Accept() {
 
-  //func (m *mockedPromise) Accept() 
+	//func (m *mockedPromise) Accept()
 
-  //  //func (m *mockedPromise) Accept() 
+	//  //func (m *mockedPromise) Accept()
 }
 
 func (m *mockedPromise) Reject() {
 
-  //func (m *mockedPromise) Reject() 
+	//func (m *mockedPromise) Reject()
 }

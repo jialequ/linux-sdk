@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/zeromicro/go-zero/core/stringx"
-	"github.com/zeromicro/go-zero/tools/goctl/rpc/execx"
+	"github.com/jialequ/linux-sdk/core/stringx"
+	"github.com/jialequ/linux-sdk/tools/goctl/rpc/execx"
 )
 
 var (

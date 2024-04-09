@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/jialequ/linux-sdk/tools/goctl/api/spec"
+	"github.com/jialequ/linux-sdk/tools/goctl/pkg/parser/api/assertx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/tools/goctl/api/spec"
-	"github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/assertx"
 )
 
 func TestParse(t *testing.T) {

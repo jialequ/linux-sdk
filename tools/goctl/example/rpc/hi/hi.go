@@ -4,15 +4,15 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/zeromicro/go-zero/tools/goctl/example/rpc/hi/internal/config"
-	eventServer "github.com/zeromicro/go-zero/tools/goctl/example/rpc/hi/internal/server/event"
-	greetServer "github.com/zeromicro/go-zero/tools/goctl/example/rpc/hi/internal/server/greet"
-	"github.com/zeromicro/go-zero/tools/goctl/example/rpc/hi/internal/svc"
-	"github.com/zeromicro/go-zero/tools/goctl/example/rpc/hi/pb/hi"
+	"github.com/jialequ/linux-sdk/tools/goctl/example/rpc/hi/internal/config"
+	eventServer "github.com/jialequ/linux-sdk/tools/goctl/example/rpc/hi/internal/server/event"
+	greetServer "github.com/jialequ/linux-sdk/tools/goctl/example/rpc/hi/internal/server/greet"
+	"github.com/jialequ/linux-sdk/tools/goctl/example/rpc/hi/internal/svc"
+	"github.com/jialequ/linux-sdk/tools/goctl/example/rpc/hi/pb/hi"
 
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/core/service"
-	"github.com/zeromicro/go-zero/zrpc"
+	"github.com/jialequ/linux-sdk/core/conf"
+	"github.com/jialequ/linux-sdk/core/service"
+	"github.com/jialequ/linux-sdk/zrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )

@@ -8,9 +8,9 @@ import (
 	"sync/atomic"
 	"testing"
 
+	ztrace "github.com/jialequ/linux-sdk/core/trace"
+	"github.com/jialequ/linux-sdk/core/trace/tracetest"
 	"github.com/stretchr/testify/assert"
-	ztrace "github.com/zeromicro/go-zero/core/trace"
-	"github.com/zeromicro/go-zero/core/trace/tracetest"
 	"go.opentelemetry.io/otel/attribute"
 	tcodes "go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/sdk/trace"

@@ -3,8 +3,8 @@ package breaker
 import (
 	"time"
 
-	"github.com/zeromicro/go-zero/core/collection"
-	"github.com/zeromicro/go-zero/core/mathx"
+	"github.com/jialequ/linux-sdk/core/collection"
+	"github.com/jialequ/linux-sdk/core/mathx"
 )
 
 const (

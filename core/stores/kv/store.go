@@ -5,10 +5,10 @@ import (
 	"errors"
 	"log"
 
-	"github.com/zeromicro/go-zero/core/errorx"
-	"github.com/zeromicro/go-zero/core/hash"
-	"github.com/zeromicro/go-zero/core/stores/cache"
-	"github.com/zeromicro/go-zero/core/stores/redis"
+	"github.com/jialequ/linux-sdk/core/errorx"
+	"github.com/jialequ/linux-sdk/core/hash"
+	"github.com/jialequ/linux-sdk/core/stores/cache"
+	"github.com/jialequ/linux-sdk/core/stores/redis"
 )
 
 // ErrNoRedisNode is an error that indicates no redis node.

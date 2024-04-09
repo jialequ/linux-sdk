@@ -7,9 +7,9 @@ import (
 	"log"
 	"testing"
 
+	"github.com/jialequ/linux-sdk/core/lang"
+	"github.com/jialequ/linux-sdk/core/logx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/lang"
-	"github.com/zeromicro/go-zero/core/logx"
 )
 
 func TestRoutineId(t *testing.T) {

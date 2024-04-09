@@ -6,9 +6,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/zeromicro/go-zero/core/search"
-	"github.com/zeromicro/go-zero/rest/httpx"
-	"github.com/zeromicro/go-zero/rest/pathvar"
+	"github.com/jialequ/linux-sdk/core/search"
+	"github.com/jialequ/linux-sdk/rest/httpx"
+	"github.com/jialequ/linux-sdk/rest/pathvar"
 )
 
 const (

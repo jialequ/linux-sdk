@@ -1,10 +1,10 @@
 package service
 
 import (
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/proc"
-	"github.com/zeromicro/go-zero/core/syncx"
-	"github.com/zeromicro/go-zero/core/threading"
+	"github.com/jialequ/linux-sdk/core/logx"
+	"github.com/jialequ/linux-sdk/core/proc"
+	"github.com/jialequ/linux-sdk/core/syncx"
+	"github.com/jialequ/linux-sdk/core/threading"
 )
 
 type (
@@ -111,7 +111,7 @@ type (
 
 func (s stopper) Stop() {
 
-  //func (s stopper) Stop() 
+	//func (s stopper) Stop()
 }
 
 func (s startOnlyService) Start() {

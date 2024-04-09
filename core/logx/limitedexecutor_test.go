@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/jialequ/linux-sdk/core/timex"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/timex"
 )
 
 func TestLimitedExecutorlogOrDiscard(t *testing.T) {

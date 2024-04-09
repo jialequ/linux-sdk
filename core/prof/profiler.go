@@ -1,6 +1,6 @@
 package prof
 
-import "github.com/zeromicro/go-zero/core/utils"
+import "github.com/jialequ/linux-sdk/core/utils"
 
 type (
 	// A ProfilePoint is a profile time point.
@@ -61,5 +61,5 @@ func (np *nullProfiler) Start() ProfilePoint {
 
 func (np *nullProfiler) Report(string, ProfilePoint) {
 
-  //func (np *nullProfiler) Report(string, ProfilePoint) 
+	//func (np *nullProfiler) Report(string, ProfilePoint)
 }

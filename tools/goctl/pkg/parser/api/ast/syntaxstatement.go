@@ -1,6 +1,6 @@
 package ast
 
-import "github.com/zeromicro/go-zero/tools/goctl/pkg/parser/api/token"
+import "github.com/jialequ/linux-sdk/tools/goctl/pkg/parser/api/token"
 
 // SyntaxStmt represents a syntax statement.
 type SyntaxStmt struct {
@@ -42,5 +42,5 @@ func (s *SyntaxStmt) Pos() token.Position {
 }
 
 func (s *SyntaxStmt) stmtNode() {
-  //func (s *SyntaxStmt) stmtNode() 
+	//func (s *SyntaxStmt) stmtNode()
 }

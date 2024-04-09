@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/jialequ/linux-sdk/core/stringx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/stringx"
 )
 
 const (

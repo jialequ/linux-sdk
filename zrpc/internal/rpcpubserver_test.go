@@ -3,9 +3,9 @@ package internal
 import (
 	"testing"
 
+	"github.com/jialequ/linux-sdk/core/discov"
+	"github.com/jialequ/linux-sdk/core/netx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/discov"
-	"github.com/zeromicro/go-zero/core/netx"
 )
 
 func TestNewRpcPubServer(t *testing.T) {

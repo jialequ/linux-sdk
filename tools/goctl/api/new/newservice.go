@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/jialequ/linux-sdk/tools/goctl/api/gogen"
+	conf "github.com/jialequ/linux-sdk/tools/goctl/config"
+	"github.com/jialequ/linux-sdk/tools/goctl/util"
+	"github.com/jialequ/linux-sdk/tools/goctl/util/pathx"
 	"github.com/spf13/cobra"
-	"github.com/zeromicro/go-zero/tools/goctl/api/gogen"
-	conf "github.com/zeromicro/go-zero/tools/goctl/config"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 )
 
 //go:embed api.tpl

@@ -10,8 +10,8 @@ import (
 	"unicode"
 
 	"github.com/google/uuid"
+	"github.com/jialequ/linux-sdk/core/stringx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/stringx"
 )
 
 func TestWillFullNameNotStruct(t *testing.T) {

@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	"github.com/alicebob/miniredis/v2"
+	"github.com/jialequ/linux-sdk/core/stores/cache"
+	"github.com/jialequ/linux-sdk/core/stores/mon"
+	"github.com/jialequ/linux-sdk/core/stores/redis"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/stores/cache"
-	"github.com/zeromicro/go-zero/core/stores/mon"
-	"github.com/zeromicro/go-zero/core/stores/redis"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo/integration/mtest"
 )

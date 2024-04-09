@@ -12,9 +12,9 @@ import (
 	"testing"
 	"testing/iotest"
 
+	"github.com/jialequ/linux-sdk/core/codec"
+	"github.com/jialequ/linux-sdk/core/logx/logtest"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/codec"
-	"github.com/zeromicro/go-zero/core/logx/logtest"
 )
 
 const (

@@ -12,15 +12,15 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/color"
-	"github.com/zeromicro/go-zero/core/iox"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/syncx"
-	"github.com/zeromicro/go-zero/core/timex"
-	"github.com/zeromicro/go-zero/core/utils"
-	"github.com/zeromicro/go-zero/rest/httpx"
-	"github.com/zeromicro/go-zero/rest/internal"
-	"github.com/zeromicro/go-zero/rest/internal/response"
+	"github.com/jialequ/linux-sdk/core/color"
+	"github.com/jialequ/linux-sdk/core/iox"
+	"github.com/jialequ/linux-sdk/core/logx"
+	"github.com/jialequ/linux-sdk/core/syncx"
+	"github.com/jialequ/linux-sdk/core/timex"
+	"github.com/jialequ/linux-sdk/core/utils"
+	"github.com/jialequ/linux-sdk/rest/httpx"
+	"github.com/jialequ/linux-sdk/rest/internal"
+	"github.com/jialequ/linux-sdk/rest/internal/response"
 )
 
 const (

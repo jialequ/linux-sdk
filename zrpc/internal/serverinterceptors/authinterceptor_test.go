@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
+	"github.com/jialequ/linux-sdk/core/stores/redis/redistest"
+	"github.com/jialequ/linux-sdk/zrpc/internal/auth"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/stores/redis/redistest"
-	"github.com/zeromicro/go-zero/zrpc/internal/auth"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )
@@ -179,7 +179,7 @@ func (m mockedStream) SendHeader(_ metadata.MD) error {
 
 func (m mockedStream) SetTrailer(_ metadata.MD) {
 
-  //func (m mockedStream) SetTrailer(_ metadata.MD) 
+	//func (m mockedStream) SetTrailer(_ metadata.MD)
 }
 
 func (m mockedStream) Context() context.Context {
