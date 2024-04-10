@@ -1,6 +1,6 @@
 package fx
 
-import "github.com/jialequ/linux-sdk/core/threading"
+import threading "github.com/jialequ/linux-sdk/core/dist"
 
 // Parallel runs fns parallelly and waits for done.
 func Parallel(fns ...func()) {

@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/jialequ/linux-sdk/core/contextx"
+	threading "github.com/jialequ/linux-sdk/core/dist"
 	"github.com/jialequ/linux-sdk/core/lang"
 	"github.com/jialequ/linux-sdk/core/logx"
 	"github.com/jialequ/linux-sdk/core/syncx"
-	"github.com/jialequ/linux-sdk/core/threading"
 	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )

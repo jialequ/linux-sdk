@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jialequ/linux-sdk/core/threading"
+	threading "github.com/jialequ/linux-sdk/core/dist"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/cheggaaa/pb.v1"
 )

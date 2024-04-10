@@ -1,10 +1,10 @@
 package service
 
 import (
+	threading "github.com/jialequ/linux-sdk/core/dist"
 	"github.com/jialequ/linux-sdk/core/logx"
 	"github.com/jialequ/linux-sdk/core/proc"
 	"github.com/jialequ/linux-sdk/core/syncx"
-	"github.com/jialequ/linux-sdk/core/threading"
 )
 
 type (

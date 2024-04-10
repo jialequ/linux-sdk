@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
+	threading "github.com/jialequ/linux-sdk/core/dist"
 	"github.com/jialequ/linux-sdk/core/lang"
-	"github.com/jialequ/linux-sdk/core/threading"
 	"github.com/jialequ/linux-sdk/core/timex"
 )
 

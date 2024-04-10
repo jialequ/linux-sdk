@@ -9,8 +9,8 @@ import (
 	"syscall"
 	"time"
 
+	threading "github.com/jialequ/linux-sdk/core/dist"
 	"github.com/jialequ/linux-sdk/core/logx"
-	"github.com/jialequ/linux-sdk/core/threading"
 )
 
 const (

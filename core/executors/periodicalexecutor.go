@@ -6,10 +6,10 @@ import (
 	"sync/atomic"
 	"time"
 
+	threading "github.com/jialequ/linux-sdk/core/dist"
 	"github.com/jialequ/linux-sdk/core/lang"
 	"github.com/jialequ/linux-sdk/core/proc"
 	"github.com/jialequ/linux-sdk/core/syncx"
-	"github.com/jialequ/linux-sdk/core/threading"
 	"github.com/jialequ/linux-sdk/core/timex"
 )
 

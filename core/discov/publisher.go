@@ -4,11 +4,11 @@ import (
 	"time"
 
 	"github.com/jialequ/linux-sdk/core/discov/internal"
+	threading "github.com/jialequ/linux-sdk/core/dist"
 	"github.com/jialequ/linux-sdk/core/lang"
 	"github.com/jialequ/linux-sdk/core/logx"
 	"github.com/jialequ/linux-sdk/core/proc"
 	"github.com/jialequ/linux-sdk/core/syncx"
-	"github.com/jialequ/linux-sdk/core/threading"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

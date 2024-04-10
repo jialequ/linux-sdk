@@ -5,9 +5,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	threading "github.com/jialequ/linux-sdk/core/dist"
 	"github.com/jialequ/linux-sdk/core/logx"
 	"github.com/jialequ/linux-sdk/core/stat/internal"
-	"github.com/jialequ/linux-sdk/core/threading"
 )
 
 const (

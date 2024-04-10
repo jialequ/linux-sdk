@@ -6,8 +6,8 @@ import (
 	"sync"
 
 	"github.com/jialequ/linux-sdk/core/collection"
+	threading "github.com/jialequ/linux-sdk/core/dist"
 	"github.com/jialequ/linux-sdk/core/lang"
-	"github.com/jialequ/linux-sdk/core/threading"
 )
 
 const (

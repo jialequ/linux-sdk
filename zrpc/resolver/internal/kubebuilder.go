@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
+	threading "github.com/jialequ/linux-sdk/core/dist"
 	"github.com/jialequ/linux-sdk/core/logx"
 	"github.com/jialequ/linux-sdk/core/proc"
-	"github.com/jialequ/linux-sdk/core/threading"
 	"github.com/jialequ/linux-sdk/zrpc/resolver/internal/kube"
 	"google.golang.org/grpc/resolver"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"

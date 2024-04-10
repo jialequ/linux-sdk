@@ -7,9 +7,9 @@ import (
 	"net/http/pprof"
 	"sync"
 
+	threading "github.com/jialequ/linux-sdk/core/dist"
 	"github.com/jialequ/linux-sdk/core/logx"
 	"github.com/jialequ/linux-sdk/core/prometheus"
-	"github.com/jialequ/linux-sdk/core/threading"
 	"github.com/jialequ/linux-sdk/internal/health"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

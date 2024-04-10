@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/jialequ/linux-sdk/core/collection"
+	threading "github.com/jialequ/linux-sdk/core/dist"
 	"github.com/jialequ/linux-sdk/core/logx"
 	"github.com/jialequ/linux-sdk/core/proc"
 	"github.com/jialequ/linux-sdk/core/stat"
 	"github.com/jialequ/linux-sdk/core/stringx"
-	"github.com/jialequ/linux-sdk/core/threading"
 )
 
 const (

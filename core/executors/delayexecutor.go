@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jialequ/linux-sdk/core/threading"
+	threading "github.com/jialequ/linux-sdk/core/dist"
 )
 
 // A DelayExecutor delays a tasks on given delay interval.
