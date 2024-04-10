@@ -179,7 +179,7 @@ func TestGenCacheKeys(t *testing.T) {
 	})
 }
 
-func cacheKeyEqual(k1, k2 Key) bool { //NOSONAR
+func cacheKeyEqual(k1, k2 Key) bool {
 	k1Join := k1.FieldNameJoin
 	k2Join := k2.FieldNameJoin
 	sort.Strings(k1Join)
@@ -195,14 +195,19 @@ func cacheKeyEqual(k1, k2 Key) bool { //NOSONAR
 		}
 	}
 
-	return k1.VarLeft == k2.VarLeft &&
-		k1.VarRight == k2.VarRight &&
-		k1.VarExpression == k2.VarExpression &&
-		k1.KeyLeft == k2.KeyLeft &&
-		k1.KeyRight == k2.KeyRight &&
-		k1.DataKeyRight == k2.DataKeyRight &&
-		k1.DataKeyExpression == k2.DataKeyExpression &&
-		k1.KeyExpression == k2.KeyExpression
+	var flag bool
+	flag = true
+	if k1.VarLeft != k2.VarLeft || k1.VarRight != k2.VarRight || k1.VarExpression != k2.VarExpression {
+		flag = false
+	}
+	if k1.KeyLeft != k2.KeyLeft || k1.KeyRight != k2.KeyRight || k1.DataKeyRight != k2.DataKeyRight {
+		flag = false
+	}
+	if k1.DataKeyExpression != k2.DataKeyExpression || k1.KeyExpression != k2.KeyExpression {
+		flag = false
+	}
+
+	return flag
 }
 
 const literal_8412 = "time.Time"

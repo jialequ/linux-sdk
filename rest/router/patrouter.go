@@ -120,8 +120,20 @@ func (pr *patRouter) methodsAllowed(method, path string) (string, bool) {
 }
 
 func validMethod(method string) bool { //NOSONAR
-	return method == http.MethodDelete || method == http.MethodGet ||
-		method == http.MethodHead || method == http.MethodOptions ||
-		method == http.MethodPatch || method == http.MethodPost ||
-		method == http.MethodPut
+	var flag bool
+	flag = false
+	if method == http.MethodDelete || method == http.MethodGet ||
+		method == http.MethodHead {
+		flag = true
+	}
+
+	if method == http.MethodOptions || method == http.MethodPatch ||
+		method == http.MethodPost {
+		flag = true
+	}
+
+	if method == http.MethodPut {
+		flag = true
+	}
+	return flag
 }

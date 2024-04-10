@@ -609,7 +609,13 @@ func (s *Scanner) isWhiteSpace(b rune) bool { //NOSONAR
 	if b == '\n' {
 		s.lines = append(s.lines, s.position)
 	}
-	return b == ' ' || b == '\t' || b == '\r' || b == '\f' || b == '\v' || b == '\n'
+	if b == ' ' || b == '\t' || b == '\r' {
+		return true
+	}
+	if b == '\f' || b == '\v' || b == '\n' {
+		return true
+	}
+	return false
 }
 
 // MustNewScanner returns a new scanner for the given filename and data.

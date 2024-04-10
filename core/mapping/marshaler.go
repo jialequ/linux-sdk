@@ -176,8 +176,11 @@ func validateRange(value reflect.Value, opt *fieldOptions) error { //NOSONAR
 
 	// validates [left, right], [left, right), (left, right], (left, right)
 	if val < opt.Range.left ||
-		(!opt.Range.leftInclude && val == opt.Range.left) ||
-		val > opt.Range.right ||
+		(!opt.Range.leftInclude && val == opt.Range.left) {
+		return fmt.Errorf("%v out of range", value.Interface())
+	}
+
+	if val > opt.Range.right ||
 		(!opt.Range.rightInclude && val == opt.Range.right) {
 		return fmt.Errorf("%v out of range", value.Interface())
 	}
