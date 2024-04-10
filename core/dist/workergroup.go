@@ -1,4 +1,4 @@
-package threading
+package dist
 
 // A WorkerGroup is used to run given number of workers to process jobs.
 type WorkerGroup struct {
