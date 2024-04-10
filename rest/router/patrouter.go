@@ -119,7 +119,7 @@ func (pr *patRouter) methodsAllowed(method, path string) (string, bool) {
 	return "", false
 }
 
-func validMethod(method string) bool {
+func validMethod(method string) bool { //NOSONAR
 	return method == http.MethodDelete || method == http.MethodGet ||
 		method == http.MethodHead || method == http.MethodOptions ||
 		method == http.MethodPatch || method == http.MethodPost ||

@@ -605,7 +605,7 @@ func (s *Scanner) isIdentifierLetter(b rune) bool {
 	return b == '_'
 }
 
-func (s *Scanner) isWhiteSpace(b rune) bool {
+func (s *Scanner) isWhiteSpace(b rune) bool { //NOSONAR
 	if b == '\n' {
 		s.lines = append(s.lines, s.position)
 	}

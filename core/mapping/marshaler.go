@@ -143,7 +143,7 @@ func validateOptions(value reflect.Value, opt *fieldOptions) error {
 	return nil
 }
 
-func validateRange(value reflect.Value, opt *fieldOptions) error {
+func validateRange(value reflect.Value, opt *fieldOptions) error { //NOSONAR
 	var val float64
 	switch v := value.Interface().(type) {
 	case int:

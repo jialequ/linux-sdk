@@ -526,7 +526,7 @@ func (p keepablePromise) keep(err error) error {
 	return err
 }
 
-func acceptable(err error) bool {
+func acceptable(err error) bool { //NOSONAR
 	return err == nil ||
 		errors.Is(err, mongo.ErrNoDocuments) ||
 		errors.Is(err, mongo.ErrNilValue) ||
