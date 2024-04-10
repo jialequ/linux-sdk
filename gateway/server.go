@@ -10,7 +10,7 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/jhump/protoreflect/grpcreflect"
 	"github.com/jialequ/linux-sdk/core/logx"
-	"github.com/jialequ/linux-sdk/core/mr"
+	mr "github.com/jialequ/linux-sdk/core/templet"
 	"github.com/jialequ/linux-sdk/gateway/internal"
 	"github.com/jialequ/linux-sdk/rest"
 	"github.com/jialequ/linux-sdk/rest/httpx"
