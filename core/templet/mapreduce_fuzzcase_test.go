@@ -1,6 +1,6 @@
 //go:build fuzz
 
-package mr
+package templet
 
 import (
 	"fmt"
